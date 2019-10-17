@@ -32,6 +32,22 @@
     text-transform: uppercase;
 }
 
+.featured-destinations .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.featured-destinations{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.featured-destinations .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 .gallery-block.grid-gallery a{
   display: block;
   position: relative;
