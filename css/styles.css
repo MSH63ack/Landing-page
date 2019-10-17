@@ -89,8 +89,8 @@ a:hover {
   text-decoration: none;
 }
 
-.bg-lightblue {
-  background: var(--lightblue);
+.bg-white {
+  background: var(--white);
 }
 
 .bg-red {
@@ -113,6 +113,13 @@ a:hover {
   padding: 15px;
 }
 
+.left-p-35 {
+  padding-left: 35px;
+}
+
+.right-p-35 {
+  padding-right: 35px;
+}
 
 .scroll .page-header {
   background: var(--red);
@@ -162,4 +169,9 @@ a:hover {
 
 .hero .container-fluid {
   z-index: 10;
+}
+
+
+.hght-60 {
+  height: 60vh !important;
 }
