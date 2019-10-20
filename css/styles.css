@@ -9,42 +9,51 @@
 }
 .icons:hover {
     color: red;
-
     -webkit-transform: rotateZ(20deg);
-
     transform: rotateZ(20deg);
 }
 
 
 .gallery-block.grid-gallery{
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-top: 0px;
+  margin: 0px;
 }
 
 .gallery-block.grid-gallery .heading{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
 .gallery-block.grid-gallery .heading h2{
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 2rem;
     text-transform: uppercase;
 }
 
 .featured-destinations .heading h2{
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 2rem;
     text-transform: uppercase;
 }
 
 .featured-destinations{
   padding-bottom: 60px;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 .featured-destinations .heading{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.carousel .heading{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.contact .heading{
+    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -193,8 +202,6 @@ a:hover {
 }
 
 
-
-
 * {
   box-sizing: border-box;
 }
@@ -210,11 +217,11 @@ input[type=text], input[type=email], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background: var(--red);
   color: white;
   padding: 12px 20px;
   border: none;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 input[type=submit]:hover {
@@ -232,8 +239,11 @@ input[type=submit]:hover {
 .column {
   float: left;
   width: 50%;
-  margin-top: 6px;
-  padding: 20px;
+  /* margin-top: 6px; */
+  /* padding: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 /* Clear floats after the columns */
@@ -249,4 +259,25 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+
+
+.heading h2{
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.contact{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.heading{
+    text-align: center;
+    margin: 0px;
+}
+.carousel-caption{
+    top: 30%;
+    bottom: 30%;
 }
