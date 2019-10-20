@@ -209,62 +209,77 @@
         </div>
     </section>
 
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <section id="myCarousel" class="carousel slide bg-inverse w-75 ml-auto mr-auto" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="https://images.wallpaperscraft.com/image/road_night_light_125999_1920x1080.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>...</h5>
-            <p>...</p>
-          </div>
+          <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg" alt="First slide">
+            <div class="carousel-caption">
+              <h3>First slide</h3>
+              <p>This is the first slide.</p>
+            </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="https://images.wallpaperscraft.com/image/road_night_light_125999_1920x1080.jpg" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>...</h5>
-            <p>...</p>
-          </div>
+          <img class="d-block w-100" src="https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Second slide">
+            <div class="carousel-caption">
+              <h3>Second slide</h3>
+              <p>This is the second slide.</p>
+            </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="https://images.wallpaperscraft.com/image/road_night_light_125999_1920x1080.jpg" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>...</h5>
-            <p>...</p>
-          </div>
+          <img class="d-block w-100" src="https://media.istockphoto.com/photos/idyllic-rural-landscape-in-golden-light-picture-id614507060?k=6&m=614507060&s=612x612&w=0&h=KjyWFvRFfotoLBKbIn5bCbBD52FQMoa8ARmk1XFAPfQ=" alt="Third slide">
+            <div class="carousel-caption">
+              <h3>Third slide</h3>
+              <p>This is the third slide.</p>
+            </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 
-    <script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js"
-       integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-       crossorigin = "anonymous">
-    </script>
+    <section>
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="https://images.wallpaperscraft.com/image/road_night_light_125999_1920x1080.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form>
+              <label for="name">First Name</label>
+  		        <input name="name" type="text" required placeholder="Your first name.."/>
+              <label for="last_name">Last Name</label>
+  		        <input name="last_name" type="text" required placeholder="Your last name.."/>
+              <label for="email">Email</label>
+  		        <input name="email" type="email" required placeholder="you@domain.com"/>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-       integrity = "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-       crossorigin = "anonymous">
-    </script>
-
-    <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-       integrity = "sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-       crossorigin = "anonymous">
-    </script>
 
     <section></section>
   </main>
