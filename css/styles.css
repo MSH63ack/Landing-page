@@ -31,18 +31,18 @@
     text-transform: uppercase;
 }
 
-.featured-destinations .heading h2{
+.news .heading h2{
     font-weight: bold;
     font-size: 2rem;
     text-transform: uppercase;
 }
 
-.featured-destinations{
+.news{
   padding-bottom: 60px;
   padding-top: 0px;
 }
 
-.featured-destinations .heading{
+.news .heading{
     margin-bottom: 60px;
     text-align: center;
 }
@@ -96,9 +96,9 @@
   }
 }
 
-.row {
+/* .row {
   margin: 15px;
-}
+} */
 
 :root {
   --lightblue: #F6F9FC;
@@ -280,4 +280,7 @@ input[type=submit]:hover {
 .carousel-caption{
     top: 30%;
     bottom: 30%;
+}
+.carousel-button-caption{
+    top: 22%;
 }
