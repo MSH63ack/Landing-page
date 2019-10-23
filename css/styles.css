@@ -420,7 +420,7 @@ input[type=submit]:hover {
 }
 @media screen and (max-width: 400px) {
   .carousel-caption{
-    font-size: 60%;
+    font-size: 68%;
   }
 }
 
