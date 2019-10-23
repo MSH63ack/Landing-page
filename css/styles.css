@@ -278,9 +278,12 @@ input[type=submit]:hover {
     text-align: center;
     margin: 0px;
 }
+
 .carousel-caption{
-    top: 30%;
-    bottom: 30%;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  margin-bottom: 10px;
 }
 .carousel-button-caption{
     top: 22%;
@@ -356,4 +359,94 @@ input[type=submit]:hover {
   padding-bottom: 0.375rem;
   padding-left: 2rem;
   transition: 0.4s;
+}
+
+
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel-item{
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.bs-example{
+	margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-item {
+    height: 360px;
+  }
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 642px) {
+  .carousel-item {
+    height: 360px;
+  }
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+  }
+  .carousel-caption{
+    font-size: 90%;
+    margin-bottom: 7px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .carousel-caption{
+    font-size: 85%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .carousel-caption{
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .carousel-caption{
+    font-size: 75%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .carousel-caption{
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .carousel-caption{
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 256px) {
+  .carousel-caption p{
+    font-size: 35%;
+  }
+  .carousel-caption h3{
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 160px) {
+  .carousel-caption p{
+    font-size: 15%;
+  }
+  .carousel-caption h3{
+    font-size: 60%;
+  }
+  .carousel-caption p{
+    margin-bottom: 0px;
+  }
 }
