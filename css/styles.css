@@ -361,6 +361,9 @@ input[type=submit]:hover {
   transition: 0.4s;
 }
 
+.hov-bg-wt:hover {
+  background-color: white;
+}
 
 .carousel{
     background: #2f4357;
@@ -450,3 +453,115 @@ input[type=submit]:hover {
     margin-bottom: 0px;
   }
 }
+
+
+.site-section {
+  padding: 2.5em 0; }
+  @media (min-width: 768px) {
+    .site-section {
+      padding: 5em 0; } }
+  .site-section.site-section-sm {
+    padding: 4em 0; }
+
+.bg-light {
+  background: #f6f6f6 !important; }
+
+
+.section-title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 900; }
+  @media (max-width: 991.98px) {
+    .section-title {
+      font-size: 30px; } }
+
+.text-black {
+  color: #000 !important; }
+
+.btn {
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 10px 30px; }
+  .btn:hover, .btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+  .btn.btn-primary {
+    border-width: 2px;
+    background: #00d2b5;
+    border-color: #00d2b5;
+    color: #fff;
+    -webkit-box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
+    box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4); }
+    .btn.btn-primary:hover {
+      background: transparent;
+      border-color: #00d2b5;
+      color: #000; }
+
+
+
+/* Start Pricing Plan Area css
+============================================================================================ */
+.pricing_area {
+  position: relative;
+  padding: 120px 0 80px; }
+
+.pricing_item {
+  background: -webkit-linear-gradient(#af001e, #a65252, #9c7272);;
+  background: -moz-linear-gradient(#af001e, #a65252, #9c7272);;
+  background: -ms-linear-gradient(#af001e, #a65252, #9c7272);;
+  background: -o-linear-gradient(#af001e, #a65252, #9c7272);;
+  background: linear-gradient(#af001e, #a65252, #9c7272);;
+  text-align: center;
+  margin-bottom: 40px; }
+  .pricing_item h3.p_title {
+    font-size: 18px;
+    color: #fff;
+    padding: 35px 30px 25px;
+    margin: 0; }
+  .pricing_item h1.p_price {
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    padding: 30px;
+    background: grey; }
+  .pricing_item ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    padding: 35px 50px 18px; }
+    .pricing_item ul li {
+      color: #ddd;
+      font-weight: 400;
+      padding: 14px 0;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+      font-family: "Roboto", sans-serif; }
+      .pricing_item ul li:nth-last-child(1) {
+        border-bottom: transparent; }
+  .pricing_item .p_btn {
+    padding-bottom: 50px; }
+    .pricing_item .p_btn .gradient_btn {
+      position: relative; }
+      .pricing_item .p_btn .gradient_btn span {
+        position: relative;
+        z-index: 2; }
+      .pricing_item .p_btn .gradient_btn:after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0;
+        bottom: 0; }
+  .pricing_item.active .p_btn .gradient_btn, .pricing_item:hover .p_btn .gradient_btn {
+    color: #22195e;
+    box-shadow: 0px 10px 30px rgba(130, 82, 250, 0.2);
+    border: 2px solid transparent; }
+    .pricing_item.active .p_btn .gradient_btn:after, .pricing_item:hover .p_btn .gradient_btn:after {
+      border-radius: 5px;
+      background: -webkit-linear-gradient(#af001e, #a65252, #9c7272);
+      background: -moz-linear-gradient(#af001e, #a65252, #9c7272);
+      background: -o-linear-gradient(#af001e, #a65252, #9c7272);
+      background: linear-gradient(#af001e, #a65252, #9c7272); }
+
+/* End Pricing Plan Area css
+============================================================================================ */
