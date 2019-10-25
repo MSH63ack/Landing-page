@@ -24,6 +24,10 @@
   width: 100%;
 }
 
+.text-red {
+  color: var(--red);
+}
+
 .p-70 {
   padding: 70px 0;
 }
@@ -51,11 +55,17 @@
   display: block;
   position: relative;
   overflow: hidden;
+  -webkit-border-radius: .25rem;
+  -moz-border-radius: .25rem;
+  border-radius: .25rem;
 }
 
 .grid-gallery a:hover{
   opacity: 0.8;
   box-shadow: 0 0 30px 0 rgb(179, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-border-radius: .25rem;
+  -moz-border-radius: .25rem;
+  border-radius: .25rem;
 }
 
 .grid-gallery .item img{
@@ -421,4 +431,12 @@ input[type=submit] {
   padding-right: 4rem;
   padding-left: 4rem;
   transition: 0.4s;
+}
+
+.footer-ic {
+  color: white;
+}
+
+.footer-ic:hover {
+  color: var(--red);
 }
