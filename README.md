@@ -16,7 +16,7 @@ To run the website, please download all the files.
 * Reviews
 * Contact
 
-## Built With
+## Built with
 
 * HTML5
 * CSS3
